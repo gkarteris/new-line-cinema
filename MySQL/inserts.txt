@@ -1,0 +1,469 @@
+﻿#movies
+INSERT INTO cinema.movie VALUES ("Angry Birds","Find out why the birds are so angry. When an island populated by happy, flightless birds is visited by mysterious green piggies, it's up to three unlikely outcasts - Red, Chuck and Bomb - to figure out what the pigs are up to.","www.youtube,com",2016,'Clay Kaytis, Fergal Reilly',"Jason Sudeikis, Josh Gad, Danny McBride",'animation');
+INSERT INTO cinema.movie VALUES ("Next","A Las Vegas magician who can see into the future is pursued by FBI agents seeking to use his abilities to prevent a nuclear terrorist attack.",'www.youtube.com',2007,'Lee Tamahori',"Nicolas Cage, Julianne Moore, Jessica Biel",'action');
+INSERT INTO cinema.movie VALUES ("The Matrix","mia kali tainia",'www.youtube.com',1999,'AC',"Efthimis Kostis,Harry Poter, Joey Tribiani",'action');
+INSERT INTO cinema.movie VALUES ("The Matrix Reloaded","mia kaluteri ekdosi tis 1hs tainia",'www.youtube.com',2003,'AC',"Harry Poter, Joey Tribiani",'action');
+INSERT INTO cinema.movie VALUES ("The Matrix Revolutions","mia kaluteri ekdosi tis 2hs tainia",'www.youtube.com',2003,'AC',"Harry Poter, Joey Tribiani",'action');
+INSERT INTO cinema.movie VALUES ("The Shawshank Redemption","Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",'www.youtube.com',1994,'Frank Darabont',"Tim Robbins, Morgan Freeman, Bob Gunton",'drama');
+INSERT INTO cinema.movie VALUES ("The Godfather","The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",'www.youtube.com',1972,'Francis Ford Coppola',"Marlon Brando, Al Pacino, James Caan",'drama');
+INSERT INTO cinema.movie VALUES ("The Godfather 2","The early life and career of Vito Corleone in 1920s New York is portrayed while his son, Michael, expands and tightens his grip on his crime syndicate stretching from Lake Tahoe, Nevada to pre-revolution 1958 Cuba.",'www.youtube.com',1974,'Francis Ford Coppola',"Al Pacino, Robert De Niro, Robert Duvall",'drama');
+INSERT INTO cinema.movie VALUES ("The Dark Knight","When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, the caped crusader must come to terms with one of the greatest psychological tests of his ability to fight injustice.","www.youtube.com",2008,'Christopher Nolan',"Christian Bale, Heath Ledger, Aaron Eckhart",'action');
+INSERT INTO cinema.movie VALUES ("Schindlers List","In Poland during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.","www.youtube.com",1993,'Steven Spielberg',"Liam Neeson, Ralph Fiennes, Ben Kingsley",'history');
+INSERT INTO cinema.movie VALUES ("American History X","A former neo-nazi skinhead tries to prevent his younger brother from going down the same wrong path that he did.", "www.youtube.com", 1998, "Tony Kaye", "Edward Norton, Edward Furlong, Beverly D\'Angelo", 'drama');
+INSERT INTO cinema.movie VALUES ("The Secret Life of Pets","A terrier named Max's quiet life is upended when his owner takes in Duke, a stray whom Max instantly dislikes.", "www.youtube.com",2016 , "Yarrow Cheney, Chris Renaud", "Louis C.K., Eric Stonestreet, Kevin Hart", 'animation');
+INSERT INTO cinema.movie VALUES ("The Legend of Tarzan","Tarzan, having acclimated to life in London, is called back to his former home in the jungle to investigate the activities at a mining encampment.", "www.youtube.com",2016 , "David Yates", "Alexander Skarsgård, Rory J. Saper, Christian Stevens", 'action');
+INSERT INTO cinema.movie VALUES ("Finding Dory","The friendly-but-forgetful blue tang fish begins a search for her long-lost parents, and everyone learns a few things about the real meaning of family along the way.", "www.youtube.com",2016 , "Andrew Stanton, Angus MacLane", "Ellen DeGeneres, Albert Brooks, Ed O'Neill", 'animation');
+INSERT INTO cinema.movie VALUES ("Mike and Dave Need Wedding Dates","Two hard-partying brothers place an online ad to find the perfect dates for their sister's Hawaiian wedding. Hoping for a wild getaway, the boys instead find themselves out-hustled by the uncontrollable duo.", "www.youtube.com",2016 , "Jake Szymanski", " Zac Efron, Adam Devine, Anna Kendrick", 'comedy');
+INSERT INTO cinema.movie VALUES ("The Purge: Election Year","Years after sparing the man who killed his son, former police sergeant Barnes has become head of security for Senator Charlie Roan, a Presidential candidate targeted for death on Purge night due to her vow to eliminate the Purge.", "www.youtube.com",2016 , "James DeMonaco", "Frank Grillo, Elizabeth Mitchell, Mykelti Williamson", 'action');
+INSERT INTO cinema.movie VALUES ("Central Intelligence","After he reconnects with an awkward pal from high school through Facebook, a mild-mannered accountant is lured into the world of international espionage.", "www.youtube.com",2016 , "Rawson Marshall Thurber", "Dwayne Johnson, Kevin Hart, Danielle Nicolet", 'action');
+INSERT INTO cinema.movie VALUES ("The BFG","A girl named Sophie encounters the Big Friendly Giant who, despite his intimidating appearance, turns out to be a kindhearted soul who is considered an outcast by the other giants because, unlike them, he refuses to eat children.", "www.youtube.com",2016 , "Steven Spielberg", "Mark Rylance, Ruby Barnhill, Penelope Wilton", 'family');
+
+
+#awards
+INSERT INTO cinema.award values ("Oscar Best Movie",2007,"Einai ena vraveio poy to pairnei i kalureri tainia toy etous.",'nominated',"Next",null);
+INSERT INTO cinema.award values ("Oscar Best Trailer",1999,"Vraveio gia to kalutero trailer tainias toy etous.",'won',"The Matrix",null);
+INSERT INTO cinema.award values ("Oscar Best Picture",2008,"Vraveio gia tis kaluteres fotografies tainias toy etous.",'won',"The Dark Knight",null);
+
+#employee
+INSERT INTO cinema.employee VALUES ("Giorgos Kasidokwstas","CEID Dept. of Patras","curiculum vite 1",'4','2015-02-05');
+INSERT INTO cinema.employee VALUES ("Takis Tsoukalas","CEID Dept. of Patras","curiculum vite 2",'4','2015-02-05');
+INSERT INTO cinema.employee VALUES ("Giorgos Dionisiou","CEID Dept. of Patras","curiculum vite 3",'4','2011-03-05');
+INSERT INTO cinema.employee VALUES ("Chrysanthi Koroniou","Architecture Dept. of Chania","curiculum vite 4",'6','2015-04-05');
+INSERT INTO cinema.employee VALUES ("Miltos Dallas","CEID Dept. of Chania","curiculum vite 5",'1','2013-05-05');
+INSERT INTO cinema.employee VALUES ("Eleni Kappa","Nursing Dept. of Patras","curiculum vite 6",'0','2015-06-05');
+INSERT INTO cinema.employee VALUES ("Gerasimos Karagiannis","Business & Logistics Dept. of Peireus","curiculum vite 7",'4','2015-07-12');
+INSERT INTO cinema.employee VALUES ("Dimitra Georgaki","Philosophy Dept. of Patras","curiculum vite 8",'3','2015-08-05');
+INSERT INTO cinema.employee VALUES ("Giannis Xionis","CSD Dept. of Irakleio","curiculum vite 9",'4','2015-09-05');
+INSERT INTO cinema.employee VALUES ("Efthimis Kostis","CEID Dept. of Patras","curiculum vite 10",'8','2016-04-15');
+INSERT INTO cinema.employee VALUES ("Anthoula Tsernakou","High School","curiculum vite 11",'0','2015-05-05');
+INSERT INTO cinema.employee VALUES ("Filipos Koutsakos","Nursing Dept. of Athens","curiculum vite 12",'0','2016-06-05');
+INSERT INTO cinema.employee VALUES ("Vrasidas Charalabidis","Business & Logistics Dept. of Kommotini","curiculum vite 13",'1','2015-07-12');
+INSERT INTO cinema.employee VALUES ("Katerina Giouvarlaki","Philology Dept. of Patras","curiculum vite 14",'5','2015-08-05');
+INSERT INTO cinema.employee VALUES ("Giorgos Vasileiou","CSD Dept. of Irakleio","curiculum vite 15",'2','2015-09-05');
+INSERT INTO cinema.employee VALUES ("Christos Vlachakis","CSD Dept. of Irakleio","curiculum vite 16",'2','2016-01-15');
+INSERT INTO cinema.employee VALUES ("Eleni Vlachaki","High School","curiculum vite 17",'0','2015-09-05');
+INSERT INTO cinema.employee VALUES ("Pegi Karachisaridou","High School","curiculum vite 18",'0','2016-01-15');
+INSERT INTO cinema.employee VALUES ("Maria Kitsiou","Law Scholl Dept. of Athens","curiculum vite 19",'4','2012-01-15');
+INSERT INTO cinema.employee VALUES ("Giorgos Karteris","CEID Dept. of Patras","curiculum vite 20",'8','2016-04-15');
+
+#εχω 20 υπαλλήλους
+#θελω σε καθε βαρδια 1 υπευθυνο--> 2
+#θελω σε καθε βαρδια 4 usher   --> 8
+#θελω σε καθε βαρδια 3 cashier --> 6
+#θελω σε καθε βαρδια 2 cleaner --> 4
+
+#supervisor
+INSERT INTO cinema.supervisor VALUES ("Efthimis Kostis");
+INSERT INTO cinema.supervisor VALUES ("Giorgos Karteris");
+
+#cleaner
+INSERT INTO cinema.cleaner VALUES ("Eleni Vlachaki");
+INSERT INTO cinema.cleaner VALUES ("Christos Vlachakis");
+INSERT INTO cinema.cleaner VALUES ("Vrasidas Charalabidis");
+INSERT INTO cinema.cleaner VALUES ("Filipos Koutsakos");
+
+#cashier
+INSERT INTO cinema.cashier VALUES ("Katerina Giouvarlaki");
+INSERT INTO cinema.cashier VALUES ("Anthoula Tsernakou");
+INSERT INTO cinema.cashier VALUES ("Dimitra Georgaki");
+INSERT INTO cinema.cashier VALUES ("Eleni Kappa");
+INSERT INTO cinema.cashier VALUES ("Chrysanthi Koroniou");
+INSERT INTO cinema.cashier VALUES ("Pegi Karachisaridou");
+
+#auditorioum
+INSERT INTO cinema.auditorioum VALUES ("Max Auditorioum 1",1,200,'YES');
+INSERT INTO cinema.auditorioum VALUES ("Max Auditorioum 2",1,200,'YES');
+INSERT INTO cinema.auditorioum VALUES ("Mini Auditorioum 1",2,100,'YES');
+INSERT INTO cinema.auditorioum VALUES ("Mini Auditorioum 2",2,100,'YES');
+
+#member_card
+INSERT INTO cinema.member_card (bonus) VALUES (10);
+INSERT INTO cinema.member_card (bonus) VALUES (180);
+INSERT INTO cinema.member_card (bonus) VALUES (14);
+INSERT INTO cinema.member_card (bonus) VALUES (18);
+INSERT INTO cinema.member_card (bonus) VALUES (78);
+INSERT INTO cinema.member_card (bonus) VALUES (100);
+INSERT INTO cinema.member_card (bonus) VALUES (0);
+
+#customer
+INSERT INTO cinema.customer (card_id,name,age,gender,marital_status) VALUES (1,"Giorgos Georgiou",50,'male','married');
+INSERT INTO cinema.customer (card_id,name,age,gender,marital_status) VALUES (1,"Eleni Mpota",48,'female','married');
+INSERT INTO cinema.customer (card_id,name,age,gender,marital_status) VALUES (1,"Makis Georgiou",14,'male','single');
+INSERT INTO cinema.customer (card_id,name,age,gender,marital_status) VALUES (1,"Kostas Georgiou",16,'male','single');
+INSERT INTO cinema.customer (card_id,name,age,gender,marital_status) VALUES (2,"Giorgos Papadopoulos",20,'male','married');
+INSERT INTO cinema.customer (card_id,name,age,gender,marital_status) VALUES (3,"Orfeas Panoplias",20,'male','single');
+INSERT INTO cinema.customer (card_id,name,age,gender,marital_status) VALUES (4,"Christina Ksanthi",18,'female','single');
+INSERT INTO cinema.customer (card_id,name,age,gender,marital_status) VALUES (5,"Olga Mpompola",25,'female','married');
+INSERT INTO cinema.customer (card_id,name,age,gender,marital_status) VALUES (6,"Dimitris Karakasis",55,'male','married');
+INSERT INTO cinema.customer (card_id,name,age,gender,marital_status) VALUES (6,"Violeta Zaxarea",54,'female','married');
+INSERT INTO cinema.customer (card_id,name,age,gender,marital_status) VALUES (6,"Grigoris Karakasis",17,'male','single');
+INSERT INTO cinema.customer (card_id,name,age,gender,marital_status) VALUES (7,"Nikoleta Tzortzoglou",26,'female','single');
+
+#ticket
+INSERT INTO cinema.ticket VALUES (1,"American History X",'Max Auditorioum 1','2016-01-15',10,NULL,1);
+INSERT INTO cinema.ticket VALUES (2,"The Dark Knight",'Max Auditorioum 2','2011-02-21',NULL,11.5,1);
+INSERT INTO cinema.ticket VALUES (3,"Angry Birds",'Mini Auditorioum 1','2016-01-25',NULL,11.5,1);
+INSERT INTO cinema.ticket VALUES (4,"The Dark Knight",'Max Auditorioum 1','2011-02-21',10,NULL,1);
+INSERT INTO cinema.ticket VALUES (5,"Angry Birds",'Mini Auditorioum 2','2016-01-25',NULL,11.5,1);
+INSERT INTO cinema.ticket VALUES (6,"The Matrix",'Max Auditorioum 1','2014-01-15',10,NULL,1);
+INSERT INTO cinema.ticket VALUES (7,"The Matrix",'Max Auditorioum 1','2014-01-15',10,NULL,1);
+INSERT INTO cinema.ticket VALUES (8,"The Matrix Revolutions",'Max Auditorioum 1','2015-11-15',10,NULL,1);
+INSERT INTO cinema.ticket VALUES (9,"Schindlers List",'Max Auditorioum 1','2009-07-14',10,NULL,1);
+INSERT INTO cinema.ticket VALUES (10,"Next",'Mini Auditorioum 2','2013-05-15',10,NULL,2);
+INSERT INTO cinema.ticket VALUES (11,"Schindlers List",'Mini Auditorioum 1','2010-05-12',10,NULL,6);
+INSERT INTO cinema.ticket VALUES (12,"Angry Birds",'Max Auditorioum 2','2015-01-21',NULL,11.5,4);
+INSERT INTO cinema.ticket VALUES (13,"American History X",'Max Auditorioum 1','2009-11-21',10,NULL,7);
+INSERT INTO cinema.ticket VALUES (14,"The Secret Life of Pets",'Mini Auditorioum 2','2016-01-15',NULL,11.5,1);
+INSERT INTO cinema.ticket VALUES (15,"The Purge: Election Year",'Max Auditorioum 2','2016-07-21',NULL,11.5,2);
+INSERT INTO cinema.ticket VALUES (16,"The Legend of Tarzan",'Max Auditorioum 2','2016-07-25',NULL,11.5,5);
+INSERT INTO cinema.ticket VALUES (17,"The Dark Knight",'Max Auditorioum 1','2011-02-21',10,NULL,5);
+INSERT INTO cinema.ticket VALUES (18,"The Godfather",'Max Auditorioum 1','2011-01-25',10,NULL,6);
+INSERT INTO cinema.ticket VALUES (19,"The Godfather",'Max Auditorioum 1','2012-01-15',10,NULL,4);
+INSERT INTO cinema.ticket VALUES (20,"The Purge: Election Year",'Max Auditorioum 2','2016-07-15',NULL,11.5,3);
+INSERT INTO cinema.ticket VALUES (21,"The Matrix Revolutions",'Mini Auditorioum 1','2015-11-15',10,NULL,6);
+INSERT INTO cinema.ticket VALUES (22,"The Legend of Tarzan",'Mini Auditorioum 2','2016-07-14',NULL,11.5,5);
+INSERT INTO cinema.ticket VALUES (23,"The Legend of Tarzan",'Max Auditorioum 2','2016-07-15',NULL,11.5,1);
+INSERT INTO cinema.ticket VALUES (24,"The Godfather",'Mini Auditorioum 1','2010-05-12',10,NULL,6);
+INSERT INTO cinema.ticket VALUES (25,"The Godfather 2",'Max Auditorioum 1','2015-01-21',10,NULL,1);
+INSERT INTO cinema.ticket VALUES (26,"American History X",'Mini Auditorioum 1','2009-11-21',10,NULL,1);
+
+
+#usher
+INSERT INTO cinema.usher VALUES ("Giannis Xionis","Max Auditorioum 1");
+INSERT INTO cinema.usher VALUES ("Gerasimos Karagiannis","Max Auditorioum 1");
+INSERT INTO cinema.usher VALUES ("Miltos Dallas","Mini Auditorioum 2");
+INSERT INTO cinema.usher VALUES ("Giorgos Dionisiou","Mini Auditorioum 2");
+INSERT INTO cinema.usher VALUES ("Takis Tsoukalas","Max Auditorioum 1");
+INSERT INTO cinema.usher VALUES ("Giorgos Kasidokwstas","Max Auditorioum 1");
+INSERT INTO cinema.usher VALUES ("Giorgos Vasileiou","Mini Auditorioum 2");
+INSERT INTO cinema.usher VALUES ("Maria Kitsiou","Mini Auditorioum 2");
+
+
+#seats
+INSERT INTO cinema.seats VALUES (7,"Max Auditorioum 1",'YES','center','top');
+INSERT INTO cinema.seats VALUES (8,"Max Auditorioum 1",'NO','center','top');
+INSERT INTO cinema.seats VALUES (9,"Max Auditorioum 1",'NO','center','top');
+INSERT INTO cinema.seats VALUES (10,"Max Auditorioum 1",'NO','center','top');
+INSERT INTO cinema.seats VALUES (11,"Max Auditorioum 1",'NO','center','top');
+INSERT INTO cinema.seats VALUES (12,"Max Auditorioum 1",'NO','center','top');
+INSERT INTO cinema.seats VALUES (13,"Max Auditorioum 1",'NO','center','top');
+INSERT INTO cinema.seats VALUES (14,"Max Auditorioum 1",'YES','center','top');
+INSERT INTO cinema.seats VALUES (181,"Max Auditorioum 2",'NO','left','bottom');
+INSERT INTO cinema.seats VALUES (182,"Max Auditorioum 2",'NO','left','bottom');
+INSERT INTO cinema.seats VALUES (183,"Max Auditorioum 2",'NO','left','bottom');
+INSERT INTO cinema.seats VALUES (184,"Max Auditorioum 2",'NO','left','bottom');
+INSERT INTO cinema.seats VALUES (185,"Max Auditorioum 2",'NO','left','bottom');
+INSERT INTO cinema.seats VALUES (186,"Max Auditorioum 2",'YES','left','bottom');
+INSERT INTO cinema.seats VALUES (41,"Mini Auditorioum 1",'NO','left','top');
+INSERT INTO cinema.seats VALUES (42,"Mini Auditorioum 1",'NO','left','top');
+INSERT INTO cinema.seats VALUES (43,"Mini Auditorioum 1",'NO','left','top');
+INSERT INTO cinema.seats VALUES (44,"Mini Auditorioum 1",'NO','left','top');
+INSERT INTO cinema.seats VALUES (45,"Mini Auditorioum 1",'NO','left','top');
+INSERT INTO cinema.seats VALUES (46,"Mini Auditorioum 1",'YES','left','top');
+INSERT INTO cinema.seats VALUES (75,"Mini Auditorioum 2",'YES','right','middle');
+INSERT INTO cinema.seats VALUES (76,"Mini Auditorioum 2",'NO','right','middle');
+INSERT INTO cinema.seats VALUES (77,"Mini Auditorioum 2",'NO','right','middle');
+INSERT INTO cinema.seats VALUES (78,"Mini Auditorioum 2",'NO','right','middle');
+INSERT INTO cinema.seats VALUES (79,"Mini Auditorioum 2",'NO','right','middle');
+INSERT INTO cinema.seats VALUES (80,"Mini Auditorioum 2",'NO','right','middle');
+
+#plays
+#thelei susxetisi toy DATE me to DATE toy ticket (logika)
+#Max Auditorioum 1
+INSERT INTO cinema.plays VALUES ("Max Auditorioum 1","Angry Birds","11:00","14:30",'2016-07-18');
+INSERT INTO cinema.plays VALUES ("Max Auditorioum 1","Angry Birds","20:00","22:30",'2016-07-18');
+INSERT INTO cinema.plays VALUES ("Max Auditorioum 1","American History X","11:00","14:30",'2016-07-19');
+INSERT INTO cinema.plays VALUES ("Max Auditorioum 1","American History X","20:30","22:30",'2016-07-19');
+INSERT INTO cinema.plays VALUES ("Max Auditorioum 1","Angry Birds","11:00","14:30",'2016-07-20');
+INSERT INTO cinema.plays VALUES ("Max Auditorioum 1","Angry Birds","20:00","22:30",'2016-07-20');
+INSERT INTO cinema.plays VALUES ("Max Auditorioum 1","American History X","11:00","14:30",'2016-07-21');
+INSERT INTO cinema.plays VALUES ("Max Auditorioum 1","American History X","20:30","22:30",'2016-07-21');
+INSERT INTO cinema.plays VALUES ("Max Auditorioum 1","Angry Birds","11:00","14:30",'2016-07-22');
+INSERT INTO cinema.plays VALUES ("Max Auditorioum 1","Angry Birds","20:00","22:30",'2016-07-22');
+INSERT INTO cinema.plays VALUES ("Max Auditorioum 1","American History X","11:00","14:30",'2016-07-23');
+INSERT INTO cinema.plays VALUES ("Max Auditorioum 1","American History X","20:30","22:30",'2016-07-23');
+INSERT INTO cinema.plays VALUES ("Max Auditorioum 1","Angry Birds","11:00","14:30",'2016-07-24');
+INSERT INTO cinema.plays VALUES ("Max Auditorioum 1","Angry Birds","20:00","22:30",'2016-07-24');
+INSERT INTO cinema.plays VALUES ("Max Auditorioum 1","American History X","11:00","14:30",'2016-07-25');
+INSERT INTO cinema.plays VALUES ("Max Auditorioum 1","American History X","20:30","22:30",'2016-07-25');
+INSERT INTO cinema.plays VALUES ("Max Auditorioum 1","Angry Birds","11:00","14:30",'2016-07-26');
+INSERT INTO cinema.plays VALUES ("Max Auditorioum 1","Angry Birds","20:00","22:30",'2016-07-26');
+INSERT INTO cinema.plays VALUES ("Max Auditorioum 1","American History X","11:00","14:30",'2016-07-27');
+INSERT INTO cinema.plays VALUES ("Max Auditorioum 1","American History X","20:30","22:30",'2016-07-28');
+#Mini Auditorioum 2
+INSERT INTO cinema.plays VALUES ("Mini Auditorioum 2","Angry Birds","11:00","14:30",'2016-07-18');
+INSERT INTO cinema.plays VALUES ("Mini Auditorioum 2","Angry Birds","20:00","22:30",'2016-07-18');
+INSERT INTO cinema.plays VALUES ("Mini Auditorioum 2","American History X","11:00","14:30",'2016-07-19');
+INSERT INTO cinema.plays VALUES ("Mini Auditorioum 2","American History X","20:30","22:30",'2016-07-19');
+INSERT INTO cinema.plays VALUES ("Mini Auditorioum 2","Angry Birds","11:00","14:30",'2016-07-20');
+INSERT INTO cinema.plays VALUES ("Mini Auditorioum 2","Angry Birds","20:00","22:30",'2016-07-20');
+INSERT INTO cinema.plays VALUES ("Mini Auditorioum 2","American History X","11:00","14:30",'2016-07-21');
+INSERT INTO cinema.plays VALUES ("Mini Auditorioum 2","American History X","20:30","22:30",'2016-07-21');
+INSERT INTO cinema.plays VALUES ("Mini Auditorioum 2","Angry Birds","11:00","14:30",'2016-07-22');
+INSERT INTO cinema.plays VALUES ("Mini Auditorioum 2","Angry Birds","20:00","22:30",'2016-07-22');
+INSERT INTO cinema.plays VALUES ("Mini Auditorioum 2","American History X","11:00","14:30",'2016-07-23');
+INSERT INTO cinema.plays VALUES ("Mini Auditorioum 2","American History X","20:30","22:30",'2016-07-23');
+INSERT INTO cinema.plays VALUES ("Mini Auditorioum 2","Angry Birds","11:00","14:30",'2016-07-24');
+INSERT INTO cinema.plays VALUES ("Mini Auditorioum 2","Angry Birds","20:00","22:30",'2016-07-24');
+INSERT INTO cinema.plays VALUES ("Mini Auditorioum 2","American History X","11:00","14:30",'2016-07-25');
+INSERT INTO cinema.plays VALUES ("Mini Auditorioum 2","American History X","20:30","22:30",'2016-07-25');
+INSERT INTO cinema.plays VALUES ("Mini Auditorioum 2","Angry Birds","11:00","14:30",'2016-07-26');
+INSERT INTO cinema.plays VALUES ("Mini Auditorioum 2","Angry Birds","20:00","22:30",'2016-07-26');
+INSERT INTO cinema.plays VALUES ("Mini Auditorioum 2","American History X","11:00","14:30",'2016-07-27');
+INSERT INTO cinema.plays VALUES ("Mini Auditorioum 2","American History X","20:30","22:30",'2016-07-28');
+
+
+#movies_seen
+INSERT INTO cinema.movies_seen VALUES (1,1,"American History X",'5','2016-01-15','2D');
+INSERT INTO cinema.movies_seen VALUES (2,1,"The Dark Knight",'5','2011-02-21','3D');
+INSERT INTO cinema.movies_seen VALUES (3,1,"Angry Birds",'3','2016-01-25','3D');
+INSERT INTO cinema.movies_seen VALUES (4,2,"The Dark Knight",'4','2011-02-21','2D');
+INSERT INTO cinema.movies_seen VALUES (5,2,"Angry Birds",'4','2016-01-25','3D');
+INSERT INTO cinema.movies_seen VALUES (6,3,"The Matrix",'5','2014-01-15','2D');
+INSERT INTO cinema.movies_seen VALUES (7,4,"The Matrix",'4','2014-01-15','2D');
+INSERT INTO cinema.movies_seen VALUES (8,4,"The Matrix Revolutions",'5','2015-11-15','2D');
+INSERT INTO cinema.movies_seen VALUES (9,4,"Schindlers List",'5','2009-07-14','2D');
+INSERT INTO cinema.movies_seen VALUES (10,5,"Next",'2','2013-05-15','2D');
+INSERT INTO cinema.movies_seen VALUES (11,10,"Schindlers List",'5','2010-05-12','2D');
+INSERT INTO cinema.movies_seen VALUES (12,7,"Angry Birds",'3','2015-01-21','3D');
+INSERT INTO cinema.movies_seen VALUES (13,12,"American History X",'5','2009-11-21','2D');
+INSERT INTO cinema.movies_seen VALUES (14,1,"The Secret Life of Pets",'4','2016-01-15','3D');
+INSERT INTO cinema.movies_seen VALUES (15,5,"The Purge: Election Year",'4','2016-07-21','3D');
+INSERT INTO cinema.movies_seen VALUES (16,8,"The Legend of Tarzan",'3','2016-07-25','3D');
+INSERT INTO cinema.movies_seen VALUES (17,8,"The Dark Knight",'4','2011-02-21','2D');
+INSERT INTO cinema.movies_seen VALUES (18,9,"The Godfather",'5','2011-01-25','2D');
+INSERT INTO cinema.movies_seen VALUES (19,7,"The Godfather",'5','2012-01-15','2D');
+INSERT INTO cinema.movies_seen VALUES (20,6,"The Purge: Election Year",'5','2016-07-15','3D');
+INSERT INTO cinema.movies_seen VALUES (21,11,"The Matrix Revolutions",'4','2015-11-15','2D');
+INSERT INTO cinema.movies_seen VALUES (22,8,"The Legend of Tarzan",'4','2016-07-14','3D');
+INSERT INTO cinema.movies_seen VALUES (23,2,"The Legend of Tarzan",'3','2016-07-15','3D');
+INSERT INTO cinema.movies_seen VALUES (24,10,"The Godfather",'5','2010-05-12','2D');
+INSERT INTO cinema.movies_seen VALUES (25,3,"The Godfather 2",'5','2015-01-21','2D');
+INSERT INTO cinema.movies_seen VALUES (26,3,"American History X",'5','2009-11-21','2D');
+
+
+#shifts
+#vardies ( deka-imero ) gia tous supervisors
+#supervisor 1
+INSERT INTO cinema.shifts VALUES ("Efthimis Kostis",'2016-07-18',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Efthimis Kostis",'2016-08-19',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Efthimis Kostis",'2016-07-20',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Efthimis Kostis",'2016-07-21',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Efthimis Kostis",'2016-07-22',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Efthimis Kostis",'2016-07-23',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Efthimis Kostis",'2016-07-24',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Efthimis Kostis",'2016-07-25',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Efthimis Kostis",'2016-07-26',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Efthimis Kostis",'2016-07-27',"16:31","01:30",'night');
+#supervisor 2
+INSERT INTO cinema.shifts VALUES ("Giorgos Karteris",'2016-07-18',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Giorgos Karteris",'2016-08-19',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Giorgos Karteris",'2016-07-20',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Giorgos Karteris",'2016-07-21',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Giorgos Karteris",'2016-07-22',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Giorgos Karteris",'2016-07-23',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Giorgos Karteris",'2016-07-24',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Giorgos Karteris",'2016-07-25',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Giorgos Karteris",'2016-07-26',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Giorgos Karteris",'2016-07-27',"08:30","18:30",'morning');
+#vardies ( deka-imero ) gia tous cashier
+#cashier 1
+INSERT INTO cinema.shifts VALUES ("Katerina Giouvarlaki",'2016-07-18',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Katerina Giouvarlaki",'2016-08-19',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Katerina Giouvarlaki",'2016-07-20',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Katerina Giouvarlaki",'2016-07-21',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Katerina Giouvarlaki",'2016-07-22',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Katerina Giouvarlaki",'2016-07-23',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Katerina Giouvarlaki",'2016-07-24',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Katerina Giouvarlaki",'2016-07-25',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Katerina Giouvarlaki",'2016-07-26',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Katerina Giouvarlaki",'2016-07-27',"16:31","01:30",'morning');
+#cashier 2
+INSERT INTO cinema.shifts VALUES ("Anthoula Tsernakou",'2016-07-18',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Anthoula Tsernakou",'2016-08-19',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Anthoula Tsernakou",'2016-07-20',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Anthoula Tsernakou",'2016-07-21',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Anthoula Tsernakou",'2016-07-22',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Anthoula Tsernakou",'2016-07-23',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Anthoula Tsernakou",'2016-07-24',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Anthoula Tsernakou",'2016-07-25',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Anthoula Tsernakou",'2016-07-26',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Anthoula Tsernakou",'2016-07-27',"16:31","01:30",'night');
+#cashier 3
+INSERT INTO cinema.shifts VALUES ("Dimitra Georgaki",'2016-07-18',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Dimitra Georgaki",'2016-08-19',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Dimitra Georgaki",'2016-07-20',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Dimitra Georgaki",'2016-07-21',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Dimitra Georgaki",'2016-07-22',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Dimitra Georgaki",'2016-07-23',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Dimitra Georgaki",'2016-07-24',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Dimitra Georgaki",'2016-07-25',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Dimitra Georgaki",'2016-07-26',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Dimitra Georgaki",'2016-07-27',"16:31","01:30",'night');
+#cashier 4
+INSERT INTO cinema.shifts VALUES ("Eleni Kappa",'2016-07-18',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Eleni Kappa",'2016-08-19',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Eleni Kappa",'2016-07-20',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Eleni Kappa",'2016-07-21',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Eleni Kappa",'2016-07-22',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Eleni Kappa",'2016-07-23',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Eleni Kappa",'2016-07-24',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Eleni Kappa",'2016-07-25',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Eleni Kappa",'2016-07-26',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Eleni Kappa",'2016-07-27',"16:31","01:30",'night');
+#cashier 5
+INSERT INTO cinema.shifts VALUES ("Chrysanthi Koroniou",'2016-07-18',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Chrysanthi Koroniou",'2016-08-19',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Chrysanthi Koroniou",'2016-07-20',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Chrysanthi Koroniou",'2016-07-21',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Chrysanthi Koroniou",'2016-07-22',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Chrysanthi Koroniou",'2016-07-23',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Chrysanthi Koroniou",'2016-07-24',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Chrysanthi Koroniou",'2016-07-25',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Chrysanthi Koroniou",'2016-07-26',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Chrysanthi Koroniou",'2016-07-27',"16:31","01:30",'morning');
+#cashier 6
+INSERT INTO cinema.shifts VALUES ("Pegi Karachisaridou",'2016-07-18',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Pegi Karachisaridou",'2016-08-19',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Pegi Karachisaridou",'2016-07-20',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Pegi Karachisaridou",'2016-07-21',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Pegi Karachisaridou",'2016-07-22',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Pegi Karachisaridou",'2016-07-23',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Pegi Karachisaridou",'2016-07-24',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Pegi Karachisaridou",'2016-07-25',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Pegi Karachisaridou",'2016-07-26',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Pegi Karachisaridou",'2016-07-27',"16:31","01:30",'morning');
+#vardies ( deka-imero ) gia tous cleaner
+#cleaner 1
+INSERT INTO cinema.shifts VALUES ("Eleni Vlachaki",'2016-07-18',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Eleni Vlachaki",'2016-08-19',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Eleni Vlachaki",'2016-07-20',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Eleni Vlachaki",'2016-07-21',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Eleni Vlachaki",'2016-07-22',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Eleni Vlachaki",'2016-07-23',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Eleni Vlachaki",'2016-07-24',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Eleni Vlachaki",'2016-07-25',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Eleni Vlachaki",'2016-07-26',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Eleni Vlachaki",'2016-07-27',"16:31","01:30",'night');
+#cleaner 2
+INSERT INTO cinema.shifts VALUES ("Christos Vlachakis",'2016-07-18',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Christos Vlachakis",'2016-08-19',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Christos Vlachakis",'2016-07-20',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Christos Vlachakis",'2016-07-21',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Christos Vlachakis",'2016-07-22',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Christos Vlachakis",'2016-07-23',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Christos Vlachakis",'2016-07-24',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Christos Vlachakis",'2016-07-25',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Christos Vlachakis",'2016-07-26',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Christos Vlachakis",'2016-07-27',"16:31","01:30",'night');
+#cleaner 3
+INSERT INTO cinema.shifts VALUES ("Vrasidas Charalabidis",'2016-07-18',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Vrasidas Charalabidis",'2016-08-19',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Vrasidas Charalabidis",'2016-07-20',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Vrasidas Charalabidis",'2016-07-21',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Vrasidas Charalabidis",'2016-07-22',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Vrasidas Charalabidis",'2016-07-23',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Vrasidas Charalabidis",'2016-07-24',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Vrasidas Charalabidis",'2016-07-25',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Vrasidas Charalabidis",'2016-07-26',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Vrasidas Charalabidis",'2016-07-27',"16:31","01:30",'morning');
+#cleaner 4
+INSERT INTO cinema.shifts VALUES ("Filipos Koutsakos",'2016-07-18',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Filipos Koutsakos",'2016-08-19',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Filipos Koutsakos",'2016-07-20',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Filipos Koutsakos",'2016-07-21',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Filipos Koutsakos",'2016-07-22',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Filipos Koutsakos",'2016-07-23',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Filipos Koutsakos",'2016-07-24',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Filipos Koutsakos",'2016-07-25',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Filipos Koutsakos",'2016-07-26',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Filipos Koutsakos",'2016-07-27',"16:31","01:30",'morning');
+#vardies ( deka-imero ) gia tous usher
+#usher 1
+INSERT INTO cinema.shifts VALUES ("Giannis Xionis",'2016-07-18',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Giannis Xionis",'2016-08-19',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Giannis Xionis",'2016-07-20',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Giannis Xionis",'2016-07-21',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Giannis Xionis",'2016-07-22',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Giannis Xionis",'2016-07-23',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Giannis Xionis",'2016-07-24',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Giannis Xionis",'2016-07-25',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Giannis Xionis",'2016-07-26',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Giannis Xionis",'2016-07-27',"16:31","01:30",'morning');
+#usher 2
+INSERT INTO cinema.shifts VALUES ("Gerasimos Karagiannis",'2016-07-18',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Gerasimos Karagiannis",'2016-08-19',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Gerasimos Karagiannis",'2016-07-20',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Gerasimos Karagiannis",'2016-07-21',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Gerasimos Karagiannis",'2016-07-22',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Gerasimos Karagiannis",'2016-07-23',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Gerasimos Karagiannis",'2016-07-24',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Gerasimos Karagiannis",'2016-07-25',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Gerasimos Karagiannis",'2016-07-26',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Gerasimos Karagiannis",'2016-07-27',"16:31","01:30",'morning');
+#usher 3
+INSERT INTO cinema.shifts VALUES ("Miltos Dallas",'2016-07-18',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Miltos Dallas",'2016-08-19',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Miltos Dallas",'2016-07-20',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Miltos Dallas",'2016-07-21',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Miltos Dallas",'2016-07-22',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Miltos Dallas",'2016-07-23',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Miltos Dallas",'2016-07-24',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Miltos Dallas",'2016-07-25',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Miltos Dallas",'2016-07-26',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Miltos Dallas",'2016-07-27',"16:31","01:30",'morning');
+#usher 4
+INSERT INTO cinema.shifts VALUES ("Giorgos Dionisiou",'2016-07-18',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Giorgos Dionisiou",'2016-08-19',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Giorgos Dionisiou",'2016-07-20',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Giorgos Dionisiou",'2016-07-21',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Giorgos Dionisiou",'2016-07-22',"08:30","18:30",'night');
+INSERT INTO cinema.shifts VALUES ("Giorgos Dionisiou",'2016-07-23',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Giorgos Dionisiou",'2016-07-24',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Giorgos Dionisiou",'2016-07-25',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Giorgos Dionisiou",'2016-07-26',"16:31","01:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Giorgos Dionisiou",'2016-07-27',"16:31","01:30",'morning');
+#usher 5
+INSERT INTO cinema.shifts VALUES ("Takis Tsoukalas",'2016-07-18',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Takis Tsoukalas",'2016-08-19',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Takis Tsoukalas",'2016-07-20',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Takis Tsoukalas",'2016-07-21',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Takis Tsoukalas",'2016-07-22',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Takis Tsoukalas",'2016-07-23',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Takis Tsoukalas",'2016-07-24',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Takis Tsoukalas",'2016-07-25',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Takis Tsoukalas",'2016-07-26',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Takis Tsoukalas",'2016-07-27',"16:31","01:30",'night');
+#usher 6
+INSERT INTO cinema.shifts VALUES ("Giorgos Kasidokwstas",'2016-07-18',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Giorgos Kasidokwstas",'2016-08-19',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Giorgos Kasidokwstas",'2016-07-20',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Giorgos Kasidokwstas",'2016-07-21',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Giorgos Kasidokwstas",'2016-07-22',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Giorgos Kasidokwstas",'2016-07-23',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Giorgos Kasidokwstas",'2016-07-24',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Giorgos Kasidokwstas",'2016-07-25',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Giorgos Kasidokwstas",'2016-07-26',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Giorgos Kasidokwstas",'2016-07-27',"16:31","01:30",'night');
+#usher 7
+INSERT INTO cinema.shifts VALUES ("Giorgos Vasileiou",'2016-07-18',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Giorgos Vasileiou",'2016-08-19',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Giorgos Vasileiou",'2016-07-20',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Giorgos Vasileiou",'2016-07-21',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Giorgos Vasileiou",'2016-07-22',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Giorgos Vasileiou",'2016-07-23',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Giorgos Vasileiou",'2016-07-24',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Giorgos Vasileiou",'2016-07-25',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Giorgos Vasileiou",'2016-07-26',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Giorgos Vasileiou",'2016-07-27',"16:31","01:30",'night');
+#usher 8
+INSERT INTO cinema.shifts VALUES ("Maria Kitsiou",'2016-07-18',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Maria Kitsiou",'2016-08-19',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Maria Kitsiou",'2016-07-20',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Maria Kitsiou",'2016-07-21',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Maria Kitsiou",'2016-07-22',"08:30","18:30",'morning');
+INSERT INTO cinema.shifts VALUES ("Maria Kitsiou",'2016-07-23',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Maria Kitsiou",'2016-07-24',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Maria Kitsiou",'2016-07-25',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Maria Kitsiou",'2016-07-26',"16:31","01:30",'night');
+INSERT INTO cinema.shifts VALUES ("Maria Kitsiou",'2016-07-27',"16:31","01:30",'night');
